@@ -1,3 +1,7 @@
 baseURL = "http://pm.ac.gov.br"
 languageCode = "pt-br"
 title = "Polícia Militar do Estado do Acre"
+
+[outputs]
+    page = ["html", "json"]
+    section = ["html", "json"]
