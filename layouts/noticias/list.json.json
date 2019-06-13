@@ -1,11 +1,11 @@
 {{ define "response" }}
 [
-    {{ range $index, $e := .Data.Pages }}
+    {{ range $index, $e :=  first 4 .Data.Pages }}
     {{ if $index }}, {{ end }}
         {
             "name": "{{ .Title }}",
             "permalink" : "{{ .Permalink }}",
-            "summary" : "{{ .Summary }}"
+            "banner" : "{{ .Params.banner }}"
         }
     {{ end }}
 ]

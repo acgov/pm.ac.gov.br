@@ -1,0 +1,6 @@
+{
+    "name": "{{ .Title }}",
+    "permalink" : "{{ .Permalink }}",
+    "summary" : "{{ .Summary }}",
+    "banner" : "{{ .Params.banner }}"
+}
