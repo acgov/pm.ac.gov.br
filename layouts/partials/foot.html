@@ -17,12 +17,54 @@
 
 <script src="/jquery.min.js"></script>
 
+
+<script type="text/javascript">
+    $.getJSON('/noticias/index.json')
+        .done(function (response) {
+            response.data.forEach(post => {
+                $(".carousel-inner").append(
+                    '<a href="' + post.permalink + '" class="carousel-item"'
+                    + '    style="background-image: url(' + post.banner + ')">'
+                    + '    <div class="gradient"></div>'
+                    + '    <div class="carousel-caption d-none d-md-block">'
+                    + '        <span class="category">Governo</span>'
+                    + '        <h5>' + post.name + '</h5>'
+                    + '        <small><i class="fal fa-calendar-alt"></i> 05/06/2019 - <i class="fal fa-clock"></i>'
+                    + '            7:53</small>'
+                    + '</div>'
+                    + '</a>'
+                )
+
+                $(".carousel-inner a").first().addClass('active')
+
+                $('.last-news ul').append(
+                    '<li>'
+                     +' <a href="/portal/noticias/categoria/noticias/259">'
+                     +'               <div class="image"'
+                     +'                   style="background-image: url('+ post.banner +')">'
+                     +'               </div>'
+                     +'               <h1>' + post.name + '</h1>'
+                     +'               <small><i class="fal fa-calendar-alt"></i> 05/06/2019 - <i class="fal fa-clock"></i>'
+                     +'                   7:45</small>'
+                     +'           </a>'
+                     +'</li>'
+                )
+
+            });
+        });
+</script>
+
+
 <script src="/popper.min.js"></script>
 <script src="/bootstrap.min.js"></script>
 <script src="/swipper.min.js"></script>
 <script src="/menu-floating.js"></script>
 <script src="/pushy.min.js"></script>
 <script src="/owl.carousel.js"></script>
+
+
+
+
 
 <!-- Datatables Responsive -->
 <script type="text/javascript" src="/datatables.script.js"></script>
@@ -48,43 +90,10 @@
 <script src="/footer.js"></script>
 
 
-<script type="text/javascript">
-    $.getJSON('/noticias/index.json')
-        .done(function (response) {
-            response.data.forEach(post => {
-                $(".carousel-inner").append(
-                    '<a href="' + post.permalink + '" class="carousel-item active"'
-                    + '    style="background-image: url(' + post.banner + ')">'
-                    + '    <div class="gradient"></div>'
-                    + '    <div class="carousel-caption d-none d-md-block">'
-                    + '        <span class="category">Governo</span>'
-                    + '        <h5>' + post.name + '</h5>'
-                    + '        <small><i class="fal fa-calendar-alt"></i> 05/06/2019 - <i class="fal fa-clock"></i>'
-                    + '            7:53</small>'
-                    + '</div>'
-                    + '</a>'
-                )
-
-                $('.last-news ul').append(
-                    '<li>'
-                     +' <a href="/portal/noticias/categoria/noticias/259">'
-                     +'               <div class="image"'
-                     +'                   style="background-image: url('+ post.banner +')">'
-                     +'               </div>'
-                     +'               <h1>' + post.name + '</h1>'
-                     +'               <small><i class="fal fa-calendar-alt"></i> 05/06/2019 - <i class="fal fa-clock"></i>'
-                     +'                   7:45</small>'
-                     +'           </a>'
-                     +'</li>'
-                )
-
-            });
-        });
-</script>
-
-
 
 <script type="text/javascript" src="/portal.js"></script>
+
+
 </body>
 
 </html>
