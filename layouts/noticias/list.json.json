@@ -4,6 +4,7 @@
     {{ if $index }}, {{ end }}
         {
             "name": "{{ .Title }}",
+            "data": "{{ .Date.Format "01/01/2006" }}",
             "permalink" : "{{ .Permalink }}",
             "banner" : "{{ .Params.banner }}"
         }
