@@ -1,6 +1,6 @@
 +++
+date = "2018-06-06T23:07:28.000-05:00"
 title = "2º Batalhão de Polícia Militar"
-draft = false
-date = 2018-06-06T23:07:28-05:00
-+++
 
++++
+Comandante: MAJ PM **Edvan** da Silva Rogerio 
