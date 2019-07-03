@@ -12,4 +12,5 @@ fields:
   name: banner
   label: banner
 pages:
+- content/unidades/operacionais/10º-batalhão-de-polícia-militar.md
 - content/noticias/teste-4.md
