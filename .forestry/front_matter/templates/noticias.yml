@@ -11,3 +11,5 @@ fields:
 - type: textarea
   name: banner
   label: banner
+pages:
+- content/noticias/teste-4.md
