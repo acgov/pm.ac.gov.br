@@ -1,10 +1,14 @@
 +++
-title = "Teste 2"
-draft = false
-date = 2018-06-06T23:07:28-05:00
+banner = "http://pm-ac-gov-br.gitlab.io/uploads/carro-branco.jpg"
 categories = ["banner"]
-banner = "https://i0.wp.com/www.agencia.ac.gov.br/wp-content/uploads/2019/06/WhatsApp-Image-2019-06-05-at-8.34.39-AM-1-3.jpeg?resize=1200%2C344&amp;ssl=1"
+date = "2018-06-06T23:07:28.000-05:00"
+title = "Menor é apreendido com arma de fogo no horto florestal"
 
 +++
+![](/uploads/carro-branco.jpg)
 
-Teste de publicação
+Dois militares de folga, realizaram a apreensão de um menor que portava uma arma de fogo, nesta terça-feira, 2 de julho, no horto florestal.
+
+O menor estava nas trilhas do parque quando os militares que caminhavam no local visualizaram o armamento, de pronto agiram e apreenderam o menor com o armamento, em seguida uma guarnição foi acionada para atendimento da ocorrência.
+
+O menor foi encaminhado a delegacia especializada para que fossem tomadas as providências cabíveis ao fato.
