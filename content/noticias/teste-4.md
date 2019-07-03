@@ -4,4 +4,7 @@ date = "2019-07-03T05:00:00+00:00"
 title = "Teste 4"
 
 +++
+
 Teste 4
+
+![](/uploads/apreensao-armas.jpg)
