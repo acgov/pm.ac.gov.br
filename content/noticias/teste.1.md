@@ -9,4 +9,5 @@ Uma ação conjunta envolvendo guarnições do Batalhão de Operações Especiai
 
 As equipes policiais foram acionadas via Ciosp para averiguar supostas invasões e expulsões de moradores de suas residências. Ao chegar ao local, os militares, após realizarem patrulhamentos a pé pelo bairro, conseguiram localizar em uma residência, quatro pessoas e com elas encontraram um revólver calibre 38 municiado.
 
+
 ![](/uploads/REVOLVER.jpg)
