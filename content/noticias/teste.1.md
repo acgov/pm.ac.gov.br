@@ -1,6 +1,6 @@
 +++
 banner = "https://pm-ac-gov-br.gitlab.io/uploads/revolver.jpg"
-categories = ["banner"]
+categories = []
 date = "2018-06-06T23:07:28.000-05:00"
 title = "Durante operação na “Sapolândia”, Polícia Militar apreende arma de fogo"
 
